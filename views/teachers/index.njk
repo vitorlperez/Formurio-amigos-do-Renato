@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>teste1</title>
+</head>
+<body>
+    <header>
+        <div class="principal">
+            <p>Formulário dos amigos do renato</p>
+        </div>
+    </header>
+
+    <form action="/register" method="post">
+
+        <div class="item">
+            <div class="item-label">Nickname:</div>
+
+            <div class="item-input">
+                <input 
+                    type="text"
+                    name="name"
+                    placeholder="write your nickname"
+                >
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="item-label">email</div>
+
+            <div class="item-input">
+                <input 
+                    type="email"
+                    name="email"
+                    placeholder="write your email"
+                >
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="item-label">Data de aniversário</div>
+
+            <div class="item-input">
+                <input 
+                    type="date"
+                    name="birth"
+                >
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="item-label">O nome do seu pet</div>
+
+            <div class="item-input">
+                <input 
+                    type="text"
+                    name="pet"
+                    placeholder="write your pet's name"
+                >
+            </div>
+        </div>
+        
+        <div class="item">
+            <div class="item-input">
+                <button type="submit">Salvar</button>
+            </div>
+        </div>
+        
+    </form>
+</body>
+</html>
